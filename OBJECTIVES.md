@@ -21,6 +21,7 @@
     [x] Use the joke api - https://github.com/15Dkatz/official_joke_api
 
 [ ] Modify the DOM in some way
+    [x] create a reusable div to hold the joke
     [ ] Append a new joke
     [ ] Remove the old joke
 
