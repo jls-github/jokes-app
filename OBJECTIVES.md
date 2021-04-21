@@ -35,20 +35,20 @@
     [x] Rating should only take in numbers
     [x] Rating numbers should be limited 1-10
 
-[ ] Do some styling
+[x] Do some styling
     [x] Title
         [x] Centered
         [x] h1
     [x] background for my page
         [x] light green
-    [ ] joke container in a box
+    [x] joke container in a box
         [x] "Joke of the Day"
         [x] Centered
         [x] h2
         [x] Everything else will be aligned left
-        [ ] button
-            [ ] green background
-            [ ] white text
+        [x] button
+            [x] green background
+            [x] white text
         [x] white background
         [x] thicker border
         [x] drop shadow
