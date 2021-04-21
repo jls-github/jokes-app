@@ -5,6 +5,7 @@ const getJokes = () => {
 
 const createJokeDiv = (joke) => { // TODO: rename jokeContainer
     const jokeContainer = document.createElement('div')
+    const jokeContainerTitle = document.createElement('h2')
     const setup = document.createElement('p')
     const punchline = document.createElement('p')
     const jokeRating = document.createElement('p')
@@ -13,11 +14,13 @@ const createJokeDiv = (joke) => { // TODO: rename jokeContainer
 
     jokeRating.id = "joke-rating"
     ratingInput.id = "rating-input"
+    jokeContainerTitle.className = "joke-container-title"
 
     setup.innerText = joke.setup
     punchline.innerText = joke.punchline
     jokeRating.innerText = "Rating: "
     ratingBtn.innerText = "Rate"
+    jokeContainerTitle.innerText = "Joke of the Day!"
 
     ratingInput.type = "number"
     ratingInput.min = 1
@@ -27,7 +30,7 @@ const createJokeDiv = (joke) => { // TODO: rename jokeContainer
         jokeRating.innerText = "Rating: " + ratingInput.value
     })
 
-    jokeContainer.append(setup, punchline, jokeRating, ratingInput, ratingBtn)
+    jokeContainer.append(jokeContainerTitle, setup, punchline, jokeRating, ratingInput, ratingBtn)
 
     return jokeContainer
 } 
