@@ -39,7 +39,8 @@
     [x] Title
         [x] Centered
         [x] h1
-    [ ] background for my page
+    [x] background for my page
+        [x] light green
     [ ] joke container in a box
         [ ] "Joke of the Day"
         [ ] Centered
