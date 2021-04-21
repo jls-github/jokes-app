@@ -24,9 +24,13 @@
     [x] create a reusable div to hold the joke
     [x] Append a new joke
 
-[ ] Generate new joke
-    [ ] Remove the old joke
-    [ ] Fetch the api for a new joke
+[x] Generate new joke
+    [x] Remove the old joke
+    [x] Fetch the api for a new joke
 
 [ ] Add rating functionality
-    [ ] This should be unique for each individual joke
+    [x] This should be unique for each individual joke
+    [x] Create an input to give a rating
+    [x] Create a place where the rating will go
+    [ ] Rating should only take in numbers
+    [ ] Rating numbers should be limited 1-10
