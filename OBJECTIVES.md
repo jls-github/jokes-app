@@ -22,7 +22,7 @@
 
 [ ] Modify the DOM in some way
     [x] create a reusable div to hold the joke
-    [ ] Append a new joke
+    [x] Append a new joke
     [ ] Remove the old joke
 
 [ ] Add rating functionality
