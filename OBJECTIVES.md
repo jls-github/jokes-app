@@ -14,11 +14,11 @@
 
 # ROADMAP
 
-[ ] Create file structure
+[x] Create file structure
 
-[ ] fetch the data
-    [ ] Probably be a reusable function
-    [ ] Use the joke api - https://github.com/15Dkatz/official_joke_api
+[x] fetch the data
+    [x] Probably be a reusable function
+    [x] Use the joke api - https://github.com/15Dkatz/official_joke_api
 
 [ ] Modify the DOM in some way
     [ ] Append a new joke
