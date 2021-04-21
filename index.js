@@ -29,4 +29,8 @@ const generateJoke = () => {
     })
 }
 
+const newJokeBtn = document.getElementById('new-joke-btn')
+
+newJokeBtn.addEventListener('click', generateJoke)
+
 generateJoke()
