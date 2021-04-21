@@ -42,13 +42,13 @@
     [x] background for my page
         [x] light green
     [ ] joke container in a box
-        [ ] "Joke of the Day"
-        [ ] Centered
-        [ ] h2
-        [ ] Everything else will be aligned right
+        [x] "Joke of the Day"
+        [x] Centered
+        [x] h2
+        [x] Everything else will be aligned left
         [ ] button
             [ ] green background
             [ ] white text
-        [ ] white background
-        [ ] thicker border
-        [ ] drop shadow
+        [x] white background
+        [x] thicker border
+        [x] drop shadow
