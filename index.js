@@ -18,10 +18,15 @@ const createJokeDiv = (joke) => { // TODO: rename jokeContainer
 
 const appendJoke = (jokeDiv) => {
     const jokeContainer = document.getElementById('joke-container')
+    jokeContainer.innerHTML = ""
     jokeContainer.append(jokeDiv)
 }
 
-getJokes().then((joke) => {
-    const jokeDiv = createJokeDiv(joke)
-    appendJoke(jokeDiv)
-})
+const generateJoke = () => {
+    getJokes().then((joke) => {
+        const jokeDiv = createJokeDiv(joke)
+        appendJoke(jokeDiv)
+    })
+}
+
+generateJoke()
