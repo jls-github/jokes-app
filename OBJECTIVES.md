@@ -34,3 +34,20 @@
     [x] Create a place where the rating will go
     [x] Rating should only take in numbers
     [x] Rating numbers should be limited 1-10
+
+[ ] Do some styling
+    [x] Title
+        [x] Centered
+        [x] h1
+    [ ] background for my page
+    [ ] joke container in a box
+        [ ] "Joke of the Day"
+        [ ] Centered
+        [ ] h2
+        [ ] Everything else will be aligned right
+        [ ] button
+            [ ] green background
+            [ ] white text
+        [ ] white background
+        [ ] thicker border
+        [ ] drop shadow
