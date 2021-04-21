@@ -19,6 +19,10 @@ const createJokeDiv = (joke) => { // TODO: rename jokeContainer
     jokeRating.innerText = "Rating: "
     ratingBtn.innerText = "Rate"
 
+    ratingInput.type = "number"
+    ratingInput.min = 1
+    ratingInput.max = 10
+
     ratingBtn.addEventListener('click', () => {
         jokeRating.innerText = "Rating: " + ratingInput.value
     })

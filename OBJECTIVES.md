@@ -28,9 +28,9 @@
     [x] Remove the old joke
     [x] Fetch the api for a new joke
 
-[ ] Add rating functionality
+[x] Add rating functionality
     [x] This should be unique for each individual joke
     [x] Create an input to give a rating
     [x] Create a place where the rating will go
-    [ ] Rating should only take in numbers
-    [ ] Rating numbers should be limited 1-10
+    [x] Rating should only take in numbers
+    [x] Rating numbers should be limited 1-10
