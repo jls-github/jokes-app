@@ -41,11 +41,21 @@ const appendJoke = (jokeDiv) => {
     jokeContainer.append(jokeDiv)
 }
 
+const handleFetchError = () => {
+    const jokeContainer = document.getElementById('joke-container')
+    const warning = document.createElement('p')
+
+    warning.innerText = "Something went wrong..."
+
+    jokeContainer.append(warning)
+}
+
 const generateJoke = () => {
     getJokes().then((joke) => {
         const jokeDiv = createJokeDiv(joke)
         appendJoke(jokeDiv)
     })
+    .catch(handleFetchError)
 }
 
 const newJokeBtn = document.getElementById('new-joke-btn')
