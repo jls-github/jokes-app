@@ -3,13 +3,13 @@
 # MVP
 
 [x] Users should see a new joke when the enter the website
-[ ] Users should be able to see a new joke if they press the new joke button
-[ ] Users should be able to rate the joke on a scale of 1 to 10 (10 being as funny as John's jokes)
+[x] Users should be able to see a new joke if they press the new joke button
+[x] Users should be able to rate the joke on a scale of 1 to 10 (10 being as funny as John's jokes)
 
 # Stretch
 
 [ ] If a joke is rated 4 or below, the screen will turn red
-[ ] If a joke is rated 8 or above, the screen will turn green
+[x] If a joke is rated 8 or above, the screen will turn green
 
 
 # ROADMAP
@@ -52,3 +52,7 @@
         [x] white background
         [x] thicker border
         [x] drop shadow
+
+[x] Turn rating number green if rating is 8 or above
+    [x] Conditional logic 
+        [x] if (rating >= 8) make color green

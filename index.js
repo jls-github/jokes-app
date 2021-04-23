@@ -3,6 +3,14 @@ const getJokes = () => {
         .then(res => res.json())
 }
 
+const changeRatingColor = (jokeRating, ratingInput) => {
+    if (ratingInput.value >= 8) {
+        jokeRating.style.color = "green"
+    } else {
+        jokeRating.style.color = "black"
+    }
+}
+
 const createJokeDiv = (joke) => { // TODO: rename jokeContainer
     const jokeContainer = document.createElement('div')
     const jokeContainerTitle = document.createElement('h2')
@@ -27,6 +35,12 @@ const createJokeDiv = (joke) => { // TODO: rename jokeContainer
     ratingInput.max = 10
 
     ratingBtn.addEventListener('click', () => {
+        // create a function that changes the rating
+            // it will take in the jokeRating, ratingInput as an argument
+            // if ratingInput.value >= 8
+                // jokeRating.style.color = "green"
+
+        changeRatingColor(jokeRating, ratingInput)
         jokeRating.innerText = "Rating: " + ratingInput.value
     })
 
